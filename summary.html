@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class = "summary">This project was quite enjoyable, but I decided to take a differnt approach
+        than usual. Usually I would study the starter code and work from there, which I did in the beginning,
+        but given my passion to do gamedesign, I started from the beginning using multiple tutorials, and of course
+        w3schools. Upon reading the requirements, a linked list was not used here, I worked with linked lists in data structures,
+        but the concept did not line up with how I was creating the game. Instead I created an array, that spawns the snake, and uses
+        the x and y axis to help draw and build the snake. Using unshift() and pop() to both add parts to the snake and remove parts in the 
+        update snake method. This proved easier with drawing the snake and creating the changing direction method. One of my challenges was 
+        the createFood() function. Figuring out how to draw food in the game at a random location, after digging around, math.random provides
+        a random number between 0 and 1, but if we use the canvas size and multiply the numbers, we can get a random number within the canvas. Figuring
+        out how to end the game as well was challenging, that required some help, but with the array, if the array coordinates of x and y were passing
+        the canvas or colliding within itself, the game would end. The main() I used a setTimeoutfunction, which I learned in game development, constantly
+        updating the game and we use this to change the speed of the snake. One of my challenges that I realized very late I had was changing the tail 
+        color of the snake. I attempted building that code here, by taking the length of the array and subtracting 1, we would have the tail.
+        But with my drawSnake method, I used the forEach function, which checks every element in the array, so changing the last color would change the entire
+        function. Overall even though I did not use linked list, I am very proud of what I created and I believed using arrays creates a more functional
+        and simpler game.
+    </p>
+    
+</body>
+</html>

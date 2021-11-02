@@ -1,0 +1,39 @@
+#gameCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2.title {
+    text-align: center;
+    position: top;
+}
+
+h2.title2 {
+    text-align: center;
+    position: top;
+    color: hotpink;
+}
+
+body.back {
+    background-color: greenyellow;
+}
+
+.howtoplay {
+    position: relative;
+    top: 420px;
+    background-color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.summary {
+    color: red;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
